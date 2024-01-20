@@ -1,0 +1,16 @@
+.custom-navbar {
+    background-color: #ffffff;
+}
+.custom-navbar-logo img {
+    max-height: 40px; /* Sesuaikan tinggi logo sesuai kebutuhan */
+}
+.custom-navbar-brand {
+    color: #FE9D02;
+}
+.custom-navbar .nav-link {
+    color: #FE9D02;
+}
+.custom-navbar .nav-link:hover {
+    color: #000000; 
+    text-decoration: underline;
+}
