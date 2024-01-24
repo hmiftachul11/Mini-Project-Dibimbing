@@ -1,0 +1,59 @@
+.custom-navbar {
+  background-color: #ffffff;
+}
+.custom-navbar-logo img {
+  max-height: 40px; /* Sesuaikan tinggi logo sesuai kebutuhan */
+}
+.custom-navbar-brand {
+  color: #fe9d02;
+}
+.custom-navbar .nav-link {
+  color: #fe9d02;
+}
+.custom-navbar .nav-link:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+.custom-button {
+  padding: 16px 48px;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 50px;
+  box-shadow: 6px 6px 12px 0px #e4cda9;
+  text-decoration: none;
+  font-weight: 700;
+}
+.custom-button-outline {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 2px solid #fe9d02;
+  box-shadow: 6px 4px 12px 0px rgba(228, 205, 169, 0.25);
+  font-weight: 700;
+}
+h1 {
+  font-size: 64px;
+}
+h2 {
+  font-size: 48px;
+}
+
+.btn-custom {
+  display: flex;
+  width: 50px;
+  padding: 14px 26px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  background: #fe9d02;
+  color: #ffffff;
+}
+.input-email {
+  padding: 14px 26px;
+  border-radius: 50px;
+  border: 2px solid #fe9d02;
+  background: #fff;
+}
