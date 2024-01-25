@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.container {
+    max-width: 90%;
+}
+.custom-navbar-logo img {
+  max-height: 40px; /* Sesuaikan tinggi logo sesuai kebutuhan */
+}
+.custom-navbar .nav-link:hover {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.input-email {
+  padding: 14px;
+  border-radius: 50px;
+  border: 2px solid #fe9d02;
+  background: #fff;
+}
+.text-black {
+  color: #000000;
+}
+.font-weight-1 {
+    font-weight: 700;
+}
+.font-weight-2 {
+    font-weight: 600;
+}
+.pyc {
+    padding: 0 2.5rem;
+}
