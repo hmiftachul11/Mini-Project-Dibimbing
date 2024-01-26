@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Project</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="./Public/css/i2.css">
     <!-- Bootstrap CSS 5 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+        integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous" />
 
 </head>
 
 <body>
     <main>
+        <!-- Navbar Bootstrap -->
         <nav class="navbar navbar-expand-lg navbar-light custom-navbar py-4">
             <div class="container">
                 <div class="container-fluid d-flex justify-content-between align-items-center">
@@ -59,16 +62,11 @@
             </div>
         </nav>
 
-
-
-
-
-
         <!-- start hero section -->
         <section class="text-dark text-center text-sm-start" style="background-color: #ffffff;" id="home">
             <div class="container py-5">
                 <div class="row d-sm-flex align-items-center justify-content-between py-5">
-                    <div class="col-md-6 text-start">
+                    <div class="col-md-6 text-center text-md-start">
                         <h1 class="display-1" style="font-weight: 700; color: #000000;">
                             We Serve
                             <br>
@@ -80,16 +78,18 @@
                             fugiat
                             amet perspiciatis dignissimos atque debitis laudantium repellendus?
                         </p>
-                        <div class="d-flex mt-4">
-                            <button class="d-flex align-items-center btn rounded-pill px-5 py-3 me-3 text-white fs-5 fw-semibold"
-                                style="background-color: #FE9D02;">Checkout</button>
+                        <div class="d-flex mt-4 justify-content-sm-center justify-content-md-start">
+                            <button
+                                class="d-flex align-items-center btn rounded-pill px-5 py-3 me-3 text-white fs-5 fw-semibold"
+                                style="background-color: #FE9D02;box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">Checkout</button>
                             <button class="btn btn-outline-warning rounded-pill px-5 fs-5 fw-semibold"
-                                style="background-color: #ffffff; color: #FE9D02; border: #FE9D02; border: 2px solid #fe9d02;">More Menu</button>
+                                style="background-color: #ffffff; color: #FE9D02; border: #FE9D02; border: 2px solid #fe9d02;">More
+                                Menu</button>
                         </div>
                     </div>
                     <div class="col-md-6 mt-4 mt-md-0 text-center">
                         <a href="#">
-                            <img src="./Public/images/hero.svg" class="img-fluid" width="500" />
+                            <img src="./Public/images/hero.svg" class="img-fluid" width="550" />
                         </a>
                     </div>
                 </div>
@@ -99,13 +99,13 @@
 
         <!-- Service -->
         <section class="p-5" id="service" style="background-color: #FFFCF5;">
-            <h2 class="text-center display-4 py-2" style="font-weight: 700; color: #000000;">Why Choose Our <span
+            <h2 class="text-center display-4 py-2 fw-bold" style="color: #000000;">Why Choose Our <span
                     style="color: #FE9D02;">Food</span></h2>
             <div class="container py-5">
                 <div class="row text-center g-5">
                     <div class="col-md">
-                        <div class="card text-dark py-5 px-4 mx-3" style="background-color: #FFFCF5; border: none;">
-                            <div class="card-body text-center text-md-left">
+                        <div class="card text-dark py-5 px-4 mx-4" style="background-color: #FFFCF5; border: none;">
+                            <div class="card-body text-center text-md-start">
                                 <div class="h1 mb-3">
                                     <img src="./Public/images/serve/food.svg" alt="Food Image"
                                         style="width: 70px; height: auto;">
@@ -121,9 +121,9 @@
                     </div>
 
                     <div class="col-md">
-                        <div class="card text-dark py-5 px-4 mx-3"
+                        <div class="card text-dark py-5 px-4 mx-4"
                             style="background-color: #FFFFFF; box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25); border: none; border-radius: 15px;">
-                            <div class="card-body text-center text-md-left">
+                            <div class="card-body text-center text-md-start">
                                 <div class="h1 mb-3">
                                     <img src="./Public/images/serve/taste.svg" alt="taste"
                                         style="width: 70px; height: auto;">
@@ -139,8 +139,8 @@
                     </div>
 
                     <div class="col-md">
-                        <div class="card text-dark py-5 px-4 mx-3" style="background-color: #FFFCF5; border: none;">
-                            <div class="card-body text-center text-md-left">
+                        <div class="card text-dark py-5 px-4 mx-4" style="background-color: #FFFCF5; border: none;">
+                            <div class="card-body text-center text-md-start">
                                 <div class="h1 mb-3">
                                     <img src="./Public/images/serve/delivery.svg" alt="delivery"
                                         style="width: 70px; height: auto;">
@@ -159,134 +159,85 @@
             </div>
         </section>
 
+        <!-- Menu -->
         <section class="p-5" id="service" style="background-color: #FFFFFF;">
-            <h2 class="text-center py-2" style="font-weight: 700; color: #000000;">Our <span
+            <h2 class="text-center py-2 display-4 fw-bold" style="color: #000000;">Our <span
                     style="color: #FE9D02;">Menu</span></h2>
-
-            <div class="text-center" style="width: 35%; margin: auto;">
+    
+            <div class="text-center" style="width: 450px; margin: auto;">
                 <p class="lead">Lorem ipsum dolor sit amet consectetur. Vitae morbi tristique lacus eleifend sit
                     placerat senectus.</p>
             </div>
-
-            <div class="container py-5">
-                <div class="row">
-                    <!-- First Card -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card m-3"
-                            style="border-radius: 16px; box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">
-                            <img src="./Public/images/cards/card-1.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title font-weight-1">Salmon Veggies</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.
-                                </p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <h5 class="font-weight-1">$15</h5>
-                                    <a href="#" class="btn btn-card font-weight-1">Add to Cart</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Second Card -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card m-3"
-                            style="border-radius: 16px; box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">
-                            <img src="./Public/images/cards/card-1.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title font-weight-1">Salmon Veggies</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.
-                                </p>
-                                <a href="#" class="btn btn-card font-weight-1">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Third Card -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card m-3"
-                            style="border-radius: 16px; box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">
-                            <img src="./Public/images/cards/card-1.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title font-weight-1">Salmon Veggies</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.
-                                </p>
-                                <a href="#" class="btn btn-card font-weight-1">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
+    
+            <div class="container pt-5 pb-3">
+                <div class="row mx-5" id="menuCards">
+                    <!-- Dynamic Cards will be inserted here -->
                 </div>
+            </div>
+    
+            <div class="text-center" style=" margin: auto;">
+                <button class="btn rounded-pill fw-semibold text-white px-5 py-3"
+                    style="background-color: #FE9D02;box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">View
+                    More</button>
+            </div>
+        </section>
 
-                <div class="row">
-                    <!-- Fourth Card -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card m-3"
-                            style="border-radius: 16px; box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">
-                            <img src="./Public/images/cards/card-1.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title font-weight-1">Salmon Veggies</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.
-                                </p>
-                                <a href="#" class="btn btn-card font-weight-1">Add to Cart</a>
-                            </div>
+        <section class="text-dark text-center text-sm-start" style="background-color: #FFFCF5;" id="home">
+            <div class="container py-5">
+                <div class="row d-sm-flex align-items-center justify-content-between py-5">
+                    <div class="col-md-6 text-center text-md-start">
+                        <h2 class="display-4 fw-bold" style="color: #000000;">
+                            About
+                            <span class="" style="color: #FE9D02;">Us</span>
+                        </h2>
+                        <p class=" mt-5 mb-4">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam delectus earum laudantium
+                            tenetur molestias veniam ipsum in repellendus fugiat accusantium vitae voluptatem
+                            aspernatur, obcaecati reprehenderit facere sed ad non veritatis repellat facilis eius. Sunt
+                            numquam omnis consequatur dignissimos.
+                        </p>
+                        <p class=" mb-5">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima quae assumenda in tempora
+                            natus corrupti.
+                        </p>
+                        <div class="d-flex mt-4 justify-content-sm-center justify-content-md-start">
+                            <button class="btn btn-outline-warning rounded-pill px-5 py-3 fw-semibold"
+                                style="background-color: #ffffff; color: #FE9D02; border: #FE9D02; border: 2px solid #fe9d02;">More
+                                Details <span><i class="bi bi-arrow-right ms-2"></i></span></button>
                         </div>
                     </div>
-
-                    <!-- Fifth Card -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card m-3"
-                            style="border-radius: 16px; box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">
-                            <img src="./Public/images/cards/card-1.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title font-weight-1">Salmon Veggies</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.
-                                </p>
-                                <a href="#" class="btn btn-card font-weight-1">Add to Cart</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Sixth Card -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card m-3"
-                            style="border-radius: 16px; box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">
-                            <img src="./Public/images/cards/card-1.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title font-weight-1">Salmon Veggies</h4>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.
-                                </p>
-                                <a href="#" class="btn btn-card font-weight-1">Add to Cart</a>
-                            </div>
-                        </div>
+                    <div class="col-md-6 mt-4 mt-md-0 text-center">
+                        <a href="#">
+                            <img src="./Public/images/cafe.svg" class="img-fluid" width="" />
+                        </a>
                     </div>
                 </div>
             </div>
-
         </section>
-
-
 
         <header></header>
 
+        <!-- Footer -->
         <footer class="text-center text-lg-start" style="background: #FFFCF5;">
             <div class="container py-4">
                 <section>
                     <div class="row">
                         <!-- Logo and Social Media Icons -->
-                        <div class="col-md-3 col-lg-3 col-xl-3 mt-3 text-center text-md-left">
+                        <div class="col-md-3 col-lg-3 col-xl-3 mt-3 text-center text-md-start">
                             <div class="custom-navbar-logo">
                                 <img src="./Public/Images/logo.svg" alt="Logo">
                             </div>
-                            <div class="mt-4 pt-2">
-                                <a href="#">
+                            <div class="mt-4 py-2">
+                                <a href="#" class="text-undecoration">
                                     <img src="./Public/images/icons/fb.svg" alt="Facebook">
                                 </a>
-                                <a href="#">
+                                <a href="#" class="text-undecoration">
                                     <img src="./Public/images/icons/twitter.svg" alt="Twitter">
                                 </a>
-                                <a href="#">
+                                <a href="#" class="text-undecoration">
                                     <img src="./Public/images/icons/linkedin.svg" alt="LinkedIn">
                                 </a>
-                                <a href="#">
+                                <a href="#" class="text-undecoration">
                                     <img src="./Public/images/icons/instagram.svg" alt="Instagram">
                                 </a>
                             </div>
@@ -296,34 +247,34 @@
                         <hr class="w-100 clearfix d-md-none" />
 
                         <!-- Opening Hours -->
-                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-center text-md-left">
-                            <h5 class="mb-4 font-weight-bold">Opening Hours</h5>
-                            <p><strong>Mon-Fri:</strong> 09:00 AM - 06:00 PM</p>
-                            <p><strong>Saturday:</strong> 09:00 AM - 04:00 PM</p>
-                            <p><strong>Sunday:</strong> Closed</p>
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-center text-md-start">
+                            <h5 class="mb-4 fw-bold">Opening Hours</h5>
+                            <p class="text-secondary pt-2"><strong>Mon-Fri:</strong> 09:00 AM - 06:00 PM</p>
+                            <p class="text-secondary"><strong>Saturday:</strong> 09:00 AM - 04:00 PM</p>
+                            <p class="text-secondary"><strong>Sunday:</strong> Closed</p>
                         </div>
 
                         <hr class="w-100 clearfix d-md-none" />
 
                         <!-- Contact Information -->
-                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-center text-md-left">
-                            <h5 class="mb-4 font-weight-bold">Contact Us</h5>
-                            <p>Jalan Soekarno Hatta, Kebayoran Baru </p>
-                            <p>Jakarta Selatan - Indonesia</p>
-                            <p>tafood.co@gmail.com</p>
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3 text-center text-md-start">
+                            <h5 class="mb-4 fw-bold">Contact Us</h5>
+                            <p class="text-secondary pt-2">Jalan Soekarno Hatta, Kebayoran Baru </p>
+                            <p class="text-secondary">Jakarta Selatan - Indonesia</p>
+                            <p class="text-secondary">tafood.co@gmail.com</p>
                         </div>
 
                         <hr class="w-100 clearfix d-md-none" />
 
                         <!-- Subscribe Form -->
-                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-center text-md-left">
-                            <h5 class="mb-4 font-weight-bold">Subscribe Us</h5>
-                            <div class="input-group">
-                                <input type="email" id="email" class="form-control input-email"
-                                    placeholder="enter your email" />
-                                <div class="input-group-append">
-                                    <button class="btn btn-custom" type="button">
-                                        <i class="fas fa-arrow-right fa-sm"></i>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3 text-center text-md-start">
+                            <h5 class="mb-4 fw-bold">Subscribe Us</h5>
+                            <div class="input-group pt-2">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Enter your email"
+                                        aria-label="Enter your email" aria-describedby="button-addon2">
+                                    <button class="btn" style="background-color: #FE9D02;" type="button">
+                                        <i class="bi bi-arrow-right text-white fw-bold"></i>
                                     </button>
                                 </div>
                             </div>
@@ -335,9 +286,9 @@
                 <hr class="my-3">
 
                 <!-- Copyright Information -->
-                <div class="text-center p-1">
-                    Copyright &copy; 2024 <a href="#" class="font-weight-bold" style="color: #000000;">Tafood<span
-                            style="color: #FE9D02;">.co</span>
+                <div class="text-center p-1 fw-medium text-secondary">
+                    Copyright &copy; 2024 <a href="#" class="fw-bold text-undecoration"
+                        style="color: #000000;">Tafood<span style="color: #FE9D02;">.co</span>
                     </a> - All rights reserved.
                 </div>
             </div>
@@ -350,6 +301,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script src="./Public/js/script.js"></script>
 </body>
 
 </html>
