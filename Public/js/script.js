@@ -1,17 +1,14 @@
-// Sample data - replace this with your actual data
 const menuData = [
-    { name: 'Salmon Veggies', price: 150000 },
-    { name: 'Chicken Pasta', price: 120000 },
-    { name: 'Vegetarian Pizza', price: 100000 },
-    { name: 'Salmon Veggies', price: 150000 },
-    { name: 'Chicken Pasta', price: 120000 },
-    { name: 'Vegetarian Pizza', price: 100000 },
-    // Add more menus as needed
+  { name: "Salmon Veggies", price: 10.50 },
+  { name: "Chicken Pasta", price: 10.50 },
+  { name: "Vegetarian Pizza", price: 12.5 },
+  { name: "Salmon Veggies", price: 10.50 },
+  { name: "Chicken Pasta", price: 10.50 },
+  { name: "Vegetarian Pizza", price: 12.5 },
 ];
 
-// Function to create a card element for each menu menu
 function createMenuCard(menu) {
-    return `
+  return `
     <div class="col-md-4 mb-4">
         <div class="card m-3"
             style="border-radius: 16px; box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">
@@ -21,8 +18,8 @@ function createMenuCard(menu) {
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.
                 </p>
                 <div class="d-flex justify-content-between align-menus-center">
-                    <h5 class="fw-bold my-auto">Rp. ${menu.price}</h5>
-                    <a href="#" class="btn rounded-pill fw-semibold text-white"
+                    <h5 class="fw-bold my-auto">$ ${menu.price}</h5>
+                    <a href="#" class="btn rounded-pill fw-semibold text-white rounded-sm"
                         style="background-color: #FE9D02;">Add to Cart</a>
                 </div>
             </div>
@@ -30,10 +27,8 @@ function createMenuCard(menu) {
     </div>`;
 }
 
-// Get the container for menu cards
-const menuCardsContainer = document.getElementById('menuCards');
+const menuCardsContainer = document.getElementById("menuCards");
 
-// Map through the menu data and create cards for each menu
-menuData.forEach(menu => {
-    menuCardsContainer.innerHTML += createMenuCard(menu);
+menuData.forEach((menu) => {
+  menuCardsContainer.innerHTML += createMenuCard(menu);
 });
