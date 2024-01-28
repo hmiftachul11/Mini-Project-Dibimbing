@@ -1,5 +1,8 @@
 # Mini Project Overview
 
+## I was Deploy this Mini Project on Vercel - Link down below:
+(https://tafood-co.vercel.app/)
+
 ## Project Type
 Mini project
 
