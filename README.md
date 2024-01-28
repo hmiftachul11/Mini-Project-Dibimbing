@@ -1,7 +1,10 @@
 # Mini Project Overview
 
-## I was Deploy this Mini Project on Vercel - Link down below:
-(https://tafood-co.vercel.app/)
+## Deployment
+The mini project has been deployed and can be accessed at [tafood-co.vercel.app](https://tafood-co.vercel.app/).
+
+## Explanation of Vercel
+[Vercel](https://vercel.com/) is a cloud platform that enables developers to deploy static websites and serverless functions with ease. It offers features such as automatic deployments, serverless functions, and global CDN distribution. Deploying on Vercel is a straightforward process, and it provides a fast and reliable hosting solution for web applications.
 
 ## Project Type
 Mini project
