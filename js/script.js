@@ -12,7 +12,7 @@ function createMenuCard(menu) {
     <div class="col-md-4 mb-4">
         <div class="card m-3"
             style="border-radius: 16px; box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.25);">
-            <img src="./Public/images/cards/card-1.svg" class="card-img-top" alt="...">
+            <img src="./images/cards/card-1.svg" class="card-img-top" alt="...">
             <div class="card-body">
                 <h4 class="card-title fw-bold">${menu.name}</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus.
